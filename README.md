@@ -15,4 +15,4 @@ possua a melhor aproximação para a série ln(T).
 ## Grafo de dependência da primeira versão
 
 
-![grafo](https://user-images.githubusercontent.com/62111019/166362742-15b3fef2-f06d-403b-ac71-81cc041069a0.PNG)
+![grafo](https://user-images.githubusercontent.com/62111019/167525885-3564f574-dab9-481b-bc78-c6bb462cb608.PNG)
