@@ -13,7 +13,7 @@
 double soma = 0.0;
 
 // 1 thread
-void primeira(void id)
+void *primeira(void* id)
 {
 	double i = 0.0;
 
@@ -24,7 +24,7 @@ void primeira(void id)
 }
 
 // 2 thread
-void segunda(void id)
+void *segunda(void* id)
 {
 	double i = 0.0;
 
@@ -35,7 +35,7 @@ void segunda(void id)
 }
 
 // 3 thread
-void terceira(void id)
+void *terceira(void* id)
 {
 	double i = 0.0;
 
@@ -46,7 +46,7 @@ void terceira(void id)
 }
 
 // 4 thread
-void quarta(void id)
+void *quarta(void* id)
 {
 	double i = 0.0;
 
