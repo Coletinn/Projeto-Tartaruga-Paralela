@@ -31,3 +31,5 @@ Para executar o programa, basta digitar o nome do programa que voce deu no item 
 
 Para a primeira versão foi utilizada recursão, onde o tempo com 10 números da Série de Taylor foi de 2.928968.
 Para a segunda versão onde foram utilizadas threads, o resultado obtido foi de 7.485471, sendo uma versão mais simples porém otimizada e melhorada da versão 1.
+
+O speedup calculado após a implemenetação da segunda versão (threads) foi de 0,3912870679747473.
