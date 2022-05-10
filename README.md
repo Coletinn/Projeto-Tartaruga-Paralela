@@ -15,7 +15,7 @@ possua a melhor aproximação para a série ln(T).
 ## Grafo de dependência da primeira versão
 
 
-![grafov1](https://user-images.githubusercontent.com/62111019/167526021-eddd8a26-7c38-43e8-a0a9-b97242dbe315.png)
+![grafo](https://user-images.githubusercontent.com/62111019/167527932-3af0195c-c2eb-42e8-8023-0ac1aff2db9d.PNG)
 
 ## Grafo de dependência da segunda versão (utilizando threads)
 
