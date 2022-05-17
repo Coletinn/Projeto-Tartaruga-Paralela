@@ -27,9 +27,18 @@ Para compilar os programas na plataforma Linux, basta abrir o terminal e digitar
 
 Para executar o programa, basta digitar o nome do programa que voce deu no item acima. Por exemplo, se a compilação foi assim: gcc -o ex1 ex1.c Para executar basta digitar no terminal ./ex1
 
+# Para versões utilizando OpenMP
+Nesse caso, para compilar basta digitar no terminal gcc -g -Wall -fopenmp -o {NomeDoExecutavel} {NomeDoArquivo}<br/>
+Exemplo: gcc -g -Wall -fopenmp -o tartaruga tartaruga.c
+
 ## Resultados
 
-Para a primeira versão foi utilizada recursão, onde o tempo com 10 números da Série de Taylor foi de 2.928968.
-Para a segunda versão onde foram utilizadas threads, o resultado obtido foi de 7.485471, sendo uma versão mais simples porém otimizada e melhorada da versão 1.
+Para a primeira versão foi utilizada recursão, onde o tempo com 10 números da Série de Taylor foi de 2.928968.<br/>
+Para a segunda versão onde foram utilizadas threads, o resultado obtido foi de 7.485471, sendo uma versão mais simples porém otimizada e melhorada da versão 1.</br>
+Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 100000000 (dez milhões) utilizando 100 threads foi de 18.997896, sendo bem mais otimizado e mais rápido do que a versão anterior.<br/>
+![omp](https://user-images.githubusercontent.com/62111019/168712645-75373487-2994-48aa-923c-71e60edde205.PNG)
+
+
+
 
 O speedup calculado após a implemenetação da segunda versão (threads) foi de 0,3912870679747473.
