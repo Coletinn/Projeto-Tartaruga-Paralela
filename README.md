@@ -29,7 +29,9 @@ Para executar o programa, basta digitar o nome do programa que voce deu no item 
 
 ### Para versões utilizando OpenMP
 Nesse caso, para compilar basta digitar no terminal gcc -g -Wall -fopenmp -o {NomeDoExecutavel} {NomeDoArquivo}<br/>
-Exemplo: gcc -g -Wall -fopenmp -o tartaruga tartaruga.c
+Exemplo: gcc -g -Wall -fopenmp -o tartaruga tartaruga.c<br/>
+Para executar basta digitar ./{NomeDoExecutavel} {quantidadeDeThreads}<br/>
+Exemplo: ./tartaruga 100
 
 ## Resultados
 
