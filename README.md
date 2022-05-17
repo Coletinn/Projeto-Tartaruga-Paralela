@@ -42,5 +42,7 @@ Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1
 
 
 
+### Speedup
+O speedup calculado após a implementação da segunda versão (pthreads) foi de 3,0769230769 com 4 threads.<br/>
+Para a versão utilizando OpenMP, o speedup calculado com 100 threads foi de 9,1743119266.
 
-O speedup calculado após a implemenetação da segunda versão (threads) foi de 0,3912870679747473.
