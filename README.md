@@ -27,7 +27,7 @@ Para compilar os programas na plataforma Linux, basta abrir o terminal e digitar
 
 Para executar o programa, basta digitar o nome do programa que voce deu no item acima. Por exemplo, se a compilação foi assim: gcc -o ex1 ex1.c Para executar basta digitar no terminal ./ex1
 
-# Para versões utilizando OpenMP
+### Para versões utilizando OpenMP
 Nesse caso, para compilar basta digitar no terminal gcc -g -Wall -fopenmp -o {NomeDoExecutavel} {NomeDoArquivo}<br/>
 Exemplo: gcc -g -Wall -fopenmp -o tartaruga tartaruga.c
 
