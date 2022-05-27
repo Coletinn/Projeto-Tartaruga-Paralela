@@ -38,7 +38,6 @@ Exemplo: ./tartaruga 100
 Para a primeira versão foi utilizada recursão, e a soma com 10 números da Série de Taylor foi de 2.928968, com um tempo de 0.001093 segundos<br/>
 Para a segunda versão onde foram utilizadas threads, o resultado obtido foi de 7.485471 com um tempo de 0.000514, sendo uma versão mais simples porém otimizada e melhorada da versão 1.</br>
 Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1000 (mil) foi de 7.485471 com um tempo de 0.000104 segundos, sendo bem mais otimizado e mais rápido do que a versão anterior, ou seja, houve um aumento notável de performance.<br/>
-![tempo3versao](https://user-images.githubusercontent.com/62111019/170736830-abd280c9-084e-4783-b44f-8022687d364d.PNG)
 
 
 ### Speedup
