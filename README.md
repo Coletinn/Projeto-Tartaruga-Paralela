@@ -43,5 +43,4 @@ Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1
 
 ### Speedup
 O speedup calculado após a implementação da segunda versão (pthreads) foi de 3,0769230769 com 4 threads.<br/>
-Para a versão utilizando OpenMP, o speedup calculado com e sem o # pragma omp critical foi de 1, ou valores com pequenas variações, utilizando a formula TEMPO SEQUENCIAL / TEMPO PARALELO.
-
+Para a versão utilizando OpenMP, o speedup com e sem o # pragma omp critical náo foram encontradas diferenças no programa.
