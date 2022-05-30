@@ -35,9 +35,11 @@ Exemplo: ./tartaruga 100
 
 ## Resultados
 
-Para a primeira versão foi utilizada recursão, e a soma com 1000 números da Série de Taylor foi de 7.485471, com um tempo de 0.001093 segundos<br/>
-Para a segunda versão onde foram utilizadas threads, o resultado obtido foi de 7.485471 com um tempo de 0.000514, sendo uma versão mais simples porém otimizada e melhorada da versão 1.</br>
-Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1000 (mil) foi de 7.485471 com um tempo de 0.000104 segundos, sendo bem mais otimizado e mais rápido do que a versão anterior, ou seja, houve um aumento notável de performance.<br/>
+Para a primeira versão foi utilizada recursão, e a soma com 1000000000 (1 bilhão) números da Série de Taylor não foi possível realizar o cálculo pois o programa quebra devido ao alto valor do input (1000000000) porém o programa realiza o cálculo de maneira correta, se o valor não for muito alto.<br/>
+Para a segunda versão onde foram utilizadas 4 threads, o resultado obtido para uma soma de 1000000000 (1 bilhão) foi de 13.733999 com um tempo de 0m16,019s, sendo uma versão mais simples porém otimizada e melhorada da versão 1.</br>
+Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1000000000 (1 bilhão) foi de 21.300482 com um tempo de 0m6,649s segundos, sendo bem mais otimizado e mais rápido do que a versão anterior, ou seja, houve um aumento notável de performance.<br/>
+
+
 
 
 ### Speedup
