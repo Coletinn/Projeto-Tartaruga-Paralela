@@ -45,10 +45,12 @@ Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1
 
 ---
 
-![tempo2versao](https://user-images.githubusercontent.com/62111019/171027979-c48edf21-904e-4a7d-b298-4baa32341162.PNG)
+![TEMPOVERSAO2](https://user-images.githubusercontent.com/62111019/171066359-a4561f83-b98f-4ec3-9272-2d3ce052d444.png)
+
 ---
 
-![tempo3versao](https://user-images.githubusercontent.com/62111019/171027995-9969559c-7829-46dc-8d46-e9fa83e1e118.PNG)
+![TEMPOVERSAO3](https://user-images.githubusercontent.com/62111019/171066377-60db1d58-e728-4fcf-a5e7-6000c2c8a5c2.png)
+
 
 ### Speedup
 O speedup calculado entre a segunda versão do código e a versão final foi de 2,4092344713s, ou aproximadamente 2,4 segundos.
