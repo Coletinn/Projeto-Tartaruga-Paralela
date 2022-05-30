@@ -47,5 +47,4 @@ Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1
 ![tempo3versao](https://user-images.githubusercontent.com/62111019/171027995-9969559c-7829-46dc-8d46-e9fa83e1e118.PNG)
 
 ### Speedup
-O speedup calculado após a implementação da segunda versão (pthreads) foi de 0.4702653248 com 4 threads.<br/>
-Para a versão utilizando OpenMP, o speedup calculado foi de 1, pois não encontramos diferenças entre o código com e sem a diretiva "pragma omp critical".
+O speedup calculado entre a segunda versão do código e a versão final foi de 2,4092344713s, ou aproximadamente 2,4 segundos.
