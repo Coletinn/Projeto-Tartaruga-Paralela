@@ -39,8 +39,12 @@ Para a primeira versão foi utilizada recursão, e a soma com 1000000000 (1 bilh
 Para a segunda versão onde foram utilizadas 4 threads, o resultado obtido para uma soma de 1000000000 (1 bilhão) foi de 13.733999 com um tempo de 0m16,019s, sendo uma versão mais simples porém otimizada e melhorada da versão 1.</br>
 Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1000000000 (1 bilhão) foi de 21.300482 com um tempo de 0m6,649s segundos, sendo bem mais otimizado e mais rápido do que a versão anterior, ou seja, houve um aumento notável de performance.<br/>
 
+---
 
+![tempo2versao](https://user-images.githubusercontent.com/62111019/171027979-c48edf21-904e-4a7d-b298-4baa32341162.PNG)
+---
 
+![tempo3versao](https://user-images.githubusercontent.com/62111019/171027995-9969559c-7829-46dc-8d46-e9fa83e1e118.PNG)
 
 ### Speedup
 O speedup calculado após a implementação da segunda versão (pthreads) foi de 0.4702653248 com 4 threads.<br/>
