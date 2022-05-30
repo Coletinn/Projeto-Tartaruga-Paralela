@@ -40,8 +40,8 @@ Exemplo: ./tartaruga 100
 ## Resultados
 
 Para a primeira versão foi utilizada recursão, e a soma com 1000000000 (1 bilhão) números da Série de Taylor não foi possível realizar o cálculo pois o programa quebra devido ao alto valor do input (1000000000) porém o programa realiza o cálculo de maneira correta, se o valor não for muito alto.<br/>
-Para a segunda versão onde foram utilizadas 4 threads, o resultado obtido para uma soma de 1000000000 (1 bilhão) foi de 13.733999 com um tempo de 0m16,019s, sendo uma versão mais simples porém otimizada e melhorada da versão 1.</br>
-Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1000000000 (1 bilhão) foi de 21.300482 com um tempo de 0m6,649s segundos, sendo bem mais otimizado e mais rápido do que a versão anterior, ou seja, houve um aumento notável de performance.<br/>
+Para a segunda versão onde foram utilizadas 4 threads, o resultado obtido para uma soma de 1000000000 (1 bilhão) foi de 20.965597 com um tempo de 0m5,645 segundos, sendo uma versão mais simples porém otimizada e melhorada da versão 1.</br>
+Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1000000000 (1 bilhão) com 4 threads foi de 21.300482 com um tempo de 0m1,520 segundos, sendo bem mais otimizado e mais rápido do que a versão anterior, ou seja, houve um aumento notável de performance.<br/>
 
 ---
 
@@ -49,8 +49,8 @@ Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1
 
 ---
 
-![TEMPOVERSAO3](https://user-images.githubusercontent.com/62111019/171066377-60db1d58-e728-4fcf-a5e7-6000c2c8a5c2.png)
+![TEMPOVERSAO3](https://user-images.githubusercontent.com/62111019/171066473-fd6121e8-76a9-4c6b-9bf7-14404f78eb09.png)
 
 
 ### Speedup
-O speedup calculado entre a segunda versão do código e a versão final foi de 2,4092344713s, ou aproximadamente 2,4 segundos.
+O speedup calculado entre a segunda versão do código e a versão final foi de 3,7138157895s, ou aproximadamente 3,7 segundos.
