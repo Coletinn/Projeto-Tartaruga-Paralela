@@ -27,11 +27,9 @@ double calculoSerieTaylor()
 
 int main()
 {	
-	double t;
-
 	#pragma omp parallel num_threads(qtd_threads)
 	{
 		calculoSerieTaylor();
 	}	 
-	printf("Resultado: %f\n",soma_global);
+	printf("A soma eh: %f\n",soma_global);
 }
