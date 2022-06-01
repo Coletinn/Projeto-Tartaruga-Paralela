@@ -39,9 +39,13 @@ Exemplo: ./tartaruga 100
 
 ## Resultados
 
-Para a primeira versão foi utilizada recursão, e a soma com 1000000000 (1 bilhão) números da Série de Taylor não foi possível realizar o cálculo pois o programa quebra devido ao alto valor do input (1000000000) porém o programa realiza o cálculo de maneira correta, se o valor não for muito alto.<br/>
+Para a primeira versão foi utilizada recursão, e a soma com 1000000000 (1 bilhão) números da Série de Taylor o valor foi de 21.30 e com um tempo de 0m12,219s.<br/>
 Para a segunda versão onde foram utilizadas 4 threads, o resultado obtido para uma soma de 1000000000 (1 bilhão) foi de 20.965597 com um tempo de 0m5,645 segundos, sendo uma versão mais simples porém otimizada e melhorada da versão 1.</br>
 Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1000000000 (1 bilhão) com 4 threads foi de 21.300482 com um tempo de 0m1,731 segundos, sendo bem mais otimizado e mais rápido do que a versão anterior, ou seja, houve um aumento notável de performance.<br/>
+
+---
+
+![TEMPOV1](https://user-images.githubusercontent.com/62111019/171464492-4513e411-8bdf-4fd6-8636-25d46dd9f388.PNG)
 
 ---
 
