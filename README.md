@@ -57,4 +57,5 @@ Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1
 
 
 ### Speedup
+O speedup calculado entre a primeira versão do código e a versão final foi de 7,0589254766s, ou aproximadamente 7,05 segundos.
 O speedup calculado entre a segunda versão do código e a versão final foi de 3,2611207395s, ou aproximadamente 3,26 segundos.
