@@ -14,7 +14,7 @@ double calculoSerieTaylor()
 {
 	int th = omp_get_thread_num();
   	
-    double somaLocal;
+    	double somaLocal;
   	double valorMinimo = (valor / qtd_threads) * th;
 	double valorMaximo = (valor / qtd_threads) + valorMinimo;
   	for (double i = valorMinimo + 1; i <= valorMaximo; i++){
