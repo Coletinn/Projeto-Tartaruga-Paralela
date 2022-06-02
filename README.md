@@ -39,16 +39,23 @@ Exemplo: ./tartaruga 100
 
 ## Resultados
 
-Para a primeira versão foi utilizada recursão, e a soma com 1000000000 (1 bilhão) números da Série de Taylor não foi possível realizar o cálculo pois o programa quebra devido ao alto valor do input (1000000000) porém o programa realiza o cálculo de maneira correta, se o valor não for muito alto.<br/>
-Para a segunda versão onde foram utilizadas 4 threads, o resultado obtido para uma soma de 1000000000 (1 bilhão) foi de 13.733999 com um tempo de 0m16,019s, sendo uma versão mais simples porém otimizada e melhorada da versão 1.</br>
-Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1000000000 (1 bilhão) foi de 21.300482 com um tempo de 0m6,649s segundos, sendo bem mais otimizado e mais rápido do que a versão anterior, ou seja, houve um aumento notável de performance.<br/>
+Para a primeira versão foi utilizada recursão, e a soma com 1000000000 (1 bilhão) números da Série de Taylor o valor foi de 21.30 e com um tempo de 0m12,219s.<br/>
+Para a segunda versão onde foram utilizadas 4 threads, o resultado obtido para uma soma de 1000000000 (1 bilhão) foi de 20.965597 com um tempo de 0m5,645 segundos, sendo uma versão mais simples porém otimizada e melhorada da versão 1.</br>
+Para a terceira versão, utilizando OpenMP o resultado obtido para um valor de 1000000000 (1 bilhão) com 4 threads foi de 21.300482 com um tempo de 0m1,731 segundos, sendo bem mais otimizado e mais rápido do que a versão anterior, ou seja, houve um aumento notável de performance.<br/>
 
 ---
 
-![tempo2versao](https://user-images.githubusercontent.com/62111019/171027979-c48edf21-904e-4a7d-b298-4baa32341162.PNG)
+![TEMPOV1](https://user-images.githubusercontent.com/62111019/171464492-4513e411-8bdf-4fd6-8636-25d46dd9f388.PNG)
+
 ---
 
-![tempo3versao](https://user-images.githubusercontent.com/62111019/171027995-9969559c-7829-46dc-8d46-e9fa83e1e118.PNG)
+![TEMPOVERSAO2](https://user-images.githubusercontent.com/62111019/171066359-a4561f83-b98f-4ec3-9272-2d3ce052d444.png)
+
+---
+
+![tempo3versao](https://user-images.githubusercontent.com/62111019/171066742-4237e9e6-6970-4747-a10b-a292323c41d5.PNG)
+
 
 ### Speedup
-O speedup calculado entre a segunda versão do código e a versão final foi de 2,4092344713s, ou aproximadamente 2,4 segundos.
+O speedup calculado entre a primeira versão do código e a versão final foi de 7,0589254766s, ou aproximadamente 7,05 segundos.<br>
+O speedup calculado entre a segunda versão do código e a versão final foi de 3,2611207395s, ou aproximadamente 3,26 segundos.

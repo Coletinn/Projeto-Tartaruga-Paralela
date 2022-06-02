@@ -3,25 +3,26 @@
 // Leonardo Sergio Caus Donda 32087535
 
 #include <stdio.h>
+#include <stdlib.h>
 
-double serieTaylorRecursao(int n)
+double calculoSerieTaylor(int n)
 {
-  if (n == 1)
-  {
-    return 1;
-  }
-  else 
-  {
-    return 1 / (double)n + serieTaylorRecursao(n - 1);
-  }
+    double sum = 0;
+
+    for (double i = 1; i <= n; i++)
+    {
+        sum = sum + 1 / i;
+    }
+
+    return sum;
 }
 
 int main()
 {
     int n;
-    printf("Digite o valor de n: ");
+    printf("Valor: ");
     scanf("%d", &n);
 
-    printf("O valor da soma é: %f\n", serieTaylorRecursao(n));
+    printf("A soma eh: %.2f\n", calculoSerieTaylor(n));
 }
 	    
